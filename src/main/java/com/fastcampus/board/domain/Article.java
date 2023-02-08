@@ -1,14 +1,14 @@
 package com.fastcampus.board.domain;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import javax.persistence.*;
+import java.time.LocalDateTime;
 import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
-
 @Getter
 @ToString
 @Table(indexes = {
